@@ -36,6 +36,10 @@ $ npm -v
 
 **package.json**
 
+<details>
+<summary>Click to show/hide file contents</summary>
+<pre>
+
 ```
 {
   "scripts": {
@@ -58,7 +62,14 @@ $ npm -v
 }
 ```
 
+</pre>
+</details>
+
 **babel.config.js**
+
+<details>
+<summary>Click to show/hide file contents</summary>
+<pre>
 
 ```
 module.exports = {
@@ -75,7 +86,14 @@ module.exports = {
 };
 ```
 
+</pre>
+</details>
+
 **.eslintrc.js**
+
+<details>
+<summary>Click to show/hide file contents</summary>
+<pre>
 
 ```
 module.exports = {
@@ -114,6 +132,9 @@ module.exports = {
   ]
 };
 ```
+
+</pre>
+</details>
 
 ## Finally
 
