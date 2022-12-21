@@ -9,8 +9,9 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
       values.forEach((object) => {
         if (object.status === 'fulfilled') {
           result.push({ status: object.status, value: object.value });
+        } else {
+          result.push({ status: object.status, value: `${object.reason}` });
         }
-        result.push({ status: object.status, value: `${object.reason}` });
       });
       // console.log(result);
       return result;
