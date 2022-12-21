@@ -13,6 +13,8 @@
 **utils.js**
 
 Use when you get to tasks requiring uploadPhoto and createUser.
+
+<details>
 <summary>Click to show/hide file contents</summary>
 <pre>
 
@@ -35,6 +37,7 @@ export function createUser() {
 ```
 
 </pre>
+</details>
 
 ##
 
