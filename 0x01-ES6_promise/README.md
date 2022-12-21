@@ -6,6 +6,37 @@
 - Your code will be tested using the [Jest Testing Framework](https://jestjs.io/)
 - Your code will be analyzed using the linter [ESLint](https://eslint.org/) along with specific rules that we’ll provide
 - All of your functions must be exported
+##
+
+#### Task files
+
+**utils.js**
+
+Use when you get to tasks requiring uploadPhoto and createUser.
+<summary>Click to show/hide file contents</summary>
+<pre>
+
+```
+export function uploadPhoto() {
+  return Promise.resolve({
+    status: 200,
+    body: 'photo-profile-1',
+  });
+}
+
+
+
+export function createUser() {
+  return Promise.resolve({
+    firstName: 'Guillaume',
+    lastName: 'Salva',
+  });
+}
+```
+
+</pre>
+
+##
 
 #### Response Data Format
 
