@@ -1,5 +1,6 @@
 export default class Currency {
   /* eslint no-underscore-dangle: 0 */
+  /* eslint no-unused-expressions: ["error", { "allowTernary": true }] */
   constructor(code, name) {
     typeof code === 'string' ? this._code = code : Currency._throw('code must be a string!');
     typeof name === 'string' ? this._name = name : Currency._throw('name must be a string!');
